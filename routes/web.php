@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('admin', function () {
+    return view('Admin/index');
+    //return "hola";
+});
+Route::get('admin/crear', function () {
+    return view('sistema/creacion/Administrador');
+    //return "hola";
 });
