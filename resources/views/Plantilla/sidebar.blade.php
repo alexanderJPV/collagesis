@@ -9,7 +9,7 @@
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-					<img src="./assets/img/UEFAB.jpg" alt="UserIcon">
+					<img src="/assets/img/UEFAB.jpg" alt="UserIcon">
 					<figcaption class="text-center text-titles">Nombre de Usuario</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
@@ -28,7 +28,7 @@
 			<!-- SideBar Menu -->
 			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
 				<li>
-					<a href="home.html">
+					<a href="{!!URL::to('/admin')!!}">
 						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Dashboard/Tablero
 					</a>
 				</li>
@@ -38,16 +38,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="period.html"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Period</a>
+							<a href="period.html"><i class="zmdi zmdi-timer zmdi-hc-fw"></i> Periodo</a>
 						</li>
 						<li>
 							<a href="subject.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Subject</a>
 						</li>
 						<li>
-							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Section</a>
+							<a href="section.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Grado</a>
 						</li>
 						<li>
-							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Salon</a>
+							<a href="salon.html"><i class="zmdi zmdi-font zmdi-hc-fw"></i> Clase</a>
 						</li>
 					</ul>
 				</li>
@@ -57,16 +57,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="admin.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Administrador</a>
+							<a href="{!!URL::to('/admin/crear')!!}"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Administrador</a>
 						</li>
 						<li>
-							<a href="teacher.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Docente</a>
+							<a href="{!!URL::to('/docente')!!}"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Docente</a>
 						</li>
 						<li>
-							<a href="student.html"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Estudiante</a>
+							<a href="{!!URL::to('/estudiante')!!}"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Estudiante</a>
 						</li>
 						<li>
-							<a href="representative.html"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Tutor/Apoderado</a>
+							<a href="{!!URL::to('/tutor')!!}"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Tutor/Apoderado</a>
 						</li>
 					</ul>
 				</li>
@@ -76,16 +76,16 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Registration</a>
+							<a href="registration.html"><i class="zmdi zmdi-money-box zmdi-hc-fw"></i> Registrar</a>
 						</li>
 						<li>
-							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Payments</a>
+							<a href="payments.html"><i class="zmdi zmdi-money zmdi-hc-fw"></i> Pagar</a>
 						</li>
 					</ul>
 				</li>
 				<li>
 					<a href="#!" class="btn-sideBar-SubMenu">
-						<i class="zmdi zmdi-shield-security zmdi-hc-fw"></i> Settings School <i class="zmdi zmdi-caret-down pull-right"></i>
+						<i class="zmdi zmdi-shield-security zmdi-hc-fw"></i> Configuraciones UEFAB <i class="zmdi zmdi-caret-down pull-right"></i>
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>

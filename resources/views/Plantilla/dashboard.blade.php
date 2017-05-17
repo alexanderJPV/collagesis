@@ -13,7 +13,7 @@
 					<i class="zmdi zmdi-account"></i>
 				</div>
 				<div class="full-box tile-number text-titles">
-					<p class="full-box">7</p>
+					<p class="full-box">4</p>
 					<small>Registrados</small>
 				</div>
 			</article>
@@ -25,7 +25,7 @@
 					<i class="zmdi zmdi-male-alt"></i>
 				</div>
 				<div class="full-box tile-number text-titles">
-					<p class="full-box">10</p>
+					<p class="full-box">4</p>
 					<small>Registrados</small>
 				</div>
 			</article>
@@ -37,7 +37,7 @@
 					<i class="zmdi zmdi-face"></i>
 				</div>
 				<div class="full-box tile-number text-titles">
-					<p class="full-box">70</p>
+					<p class="full-box">4</p>
 					<small>Registrados</small>
 				</div>
 			</article>
@@ -49,7 +49,7 @@
 					<i class="zmdi zmdi-male-female"></i>
 				</div>
 				<div class="full-box tile-number text-titles">
-					<p class="full-box">70</p>
+					<p class="full-box">4</p>
 					<small>Registrados</small>
 				</div>
 			</article>

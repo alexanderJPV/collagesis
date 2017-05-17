@@ -15,7 +15,21 @@ Route::get('admin', function () {
     return view('Admin/index');
     //return "hola";
 });
-Route::get('admin/crear', function () {
-    return view('sistema/creacion/Administrador');
+Route::get('docente', function () {
+    return view('Admin/Docente');
     //return "hola";
 });
+Route::get('estudiante', function () {
+    return view('Admin/Estudiante');
+    //return "hola";
+});
+Route::get('tutor', function () {
+    return view('Admin/Tutor');
+    //return "hola";
+});
+Route::resource('admin/crear','UsuarioController');
+Route::resource('crear','UsuarioController');
+
+/*Route::get('admin/crear', function () {
+    return view('Admin/Administrador');    
+});*/
