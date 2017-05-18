@@ -8,12 +8,12 @@
 </head>
 <body>
 	<!-- SideBar -->
-	@include('plantilla.sidebar')
+	@include('admin.plantilla.sidebar')
 	<!-- Content page-->
 	<section class="full-box dashboard-contentPage">
 		<!-- NavBar header-->
-		@include('plantilla.header')		
-		@include('plantilla.dashboard')        		
+		@include('admin.plantilla.header')		
+		@include('admin.plantilla.dashboard')        		
 	</section>
 
 	<!-- Notifications area del header -->

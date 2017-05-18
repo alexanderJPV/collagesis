@@ -7,8 +7,8 @@ use App\Http\Controllers\Controller;
 
 class IndexController extends Controller
 {
-	function index(){
-		return view('admin.index');
+	public function index(){
+		return view('admin.plantilla.index');
 	}
 
 	public function create(){

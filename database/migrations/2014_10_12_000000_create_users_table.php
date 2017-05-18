@@ -20,11 +20,11 @@ class CreateUsersTable extends Migration
             $table->string('ap_materno');
             $table->integer('ci')->unique();
             $table->string('genero');
-            $table->integer('tipo_usuario');
-            $table->integer('direcion');
+            //$table->integer('tipo_usuario');
+            $table->string('direcion');
             $table->string('email')->unique();            
             $table->string('password');            
-            $table->string('foto',250);                       
+            //$table->string('foto',250);                       
             $table->integer('telefono');
             $table->rememberToken();
             $table->timestamps();
